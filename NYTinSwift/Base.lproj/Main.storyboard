@@ -147,11 +147,11 @@
             <objects>
                 <viewController storyboardIdentifier="DetailViewController" id="xIm-BQ-fEw" customClass="DetailViewController" customModule="NYTinSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zvW-hS-jfJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="fk4-Az-wKv">
-                                <rect key="frame" x="16" y="80" width="382" height="712"/>
+                                <rect key="frame" x="16" y="124" width="382" height="722"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lie-dg-fde">
                                         <rect key="frame" x="16" y="0.0" width="350" height="50"/>
@@ -169,7 +169,7 @@
                                         </constraints>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zNq-zC-Ie4">
-                                        <rect key="frame" x="16" y="460" width="350" height="186"/>
+                                        <rect key="frame" x="16" y="460" width="350" height="196"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8n-2E-a2v">
                                                 <rect key="frame" x="0.0" y="0.0" width="350" height="19.5"/>
@@ -188,7 +188,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1bZ-ER-WiH" userLabel="btnView">
-                                        <rect key="frame" x="0.0" y="662" width="382" height="50"/>
+                                        <rect key="frame" x="0.0" y="672" width="382" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3XA-N5-v9b">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
@@ -224,7 +224,7 @@
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ALE-yD-jY3" userLabel="NavView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="56"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The New York Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZh-7R-X7n">
                                         <rect key="frame" x="120" y="13" width="174.5" height="30"/>
@@ -251,7 +251,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ejv-tI-XKr" userLabel="MockView">
-                                <rect key="frame" x="0.0" y="-5" width="414" height="5"/>
+                                <rect key="frame" x="0.0" y="39" width="414" height="5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="5" id="L2m-d4-ru5"/>
@@ -417,7 +417,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RiP-qX-rJI"/>
+        <segue reference="nBl-zG-KPa"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BackBtn " width="16" height="16"/>

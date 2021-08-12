@@ -51,7 +51,7 @@ class ViewController: UIViewController ,UICollectionViewDataSource, UICollection
 
         self.navView.layer.shadowColor = UIColor.black.cgColor
         self.navView.layer.shadowOffset = CGSize(width: 0, height: 1)
-        self.navView.layer.shadowRadius = 2.0;
+        self.navView.layer.shadowRadius = 2.0
         self.navView.layer.shadowOpacity = 0.3
         self.navView.layer.masksToBounds = false
     }
