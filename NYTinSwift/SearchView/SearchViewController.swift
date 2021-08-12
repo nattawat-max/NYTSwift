@@ -24,9 +24,7 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
     var filteredMedia: [BookListMedia] = []
     var isFiltered: Bool!
     var searchTask: DispatchWorkItem?
-    var selectedMedia : BookListMedia?
-    var selectedBook : BookList?
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -144,7 +142,7 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
         }
         self.searchTask = task
 
-        // Execute task in 0.75 seconds (if not cancelled !)
+        // Execute task in 0.5 seconds (if not cancelled !)
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5, execute: task)
             
         
@@ -206,16 +204,7 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
         }
     }
     
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    
 }
 extension String{
     func deletingPrefix(_ prefix: String) -> String {

@@ -25,7 +25,7 @@ class searchTableViewCell: UITableViewCell {
         bgView.layer.borderWidth = 1.0
         bgView.layer.borderColor = UIColor.clear.cgColor
         bgView.layer.masksToBounds = true
-    //
+    
         bgView.layer.shadowColor = UIColor.black.cgColor
         bgView.layer.shadowOffset = CGSize(width :0, height : 1)
         bgView.layer.shadowRadius = 3.0
@@ -36,7 +36,6 @@ class searchTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
     
 }
