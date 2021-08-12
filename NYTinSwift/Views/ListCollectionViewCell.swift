@@ -29,12 +29,6 @@ class ListCollectionViewCell: UICollectionViewCell {
         
         
         
-        // Initialization code
-//        titleLabel.numberOfLines = 0
-//        titleLabel.sizeToFit()
-//        titleLabel.textColor = UIColor(red: 0.0, green: 0.004, blue: 0.502, alpha: 1.0)
-//        titleLabel.textColor = UIColor colorWithRed: 0.50 green: 0.50 blue: 0.50 alpha: 1.00;
-        
 
     }
 

@@ -21,8 +21,6 @@ class ViewController: UIViewController ,UICollectionViewDataSource, UICollection
     var bookList: [BookList] = []
     var bookListMedia: [BookListMedia] = []
     var imageCache: [NSData] = []
-    var selectedMedia : BookListMedia?
-    var selectedBook : BookList?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -140,18 +138,6 @@ class ViewController: UIViewController ,UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ListCollectionViewCell", for: indexPath) as! ListCollectionViewCell
-
-//        cell.contentView.layer.cornerRadius = 8.0
-//        cell.contentView.layer.borderWidth = 1.0
-//        cell.contentView.layer.borderColor = UIColor.clear.cgColor
-//        cell.contentView.layer.masksToBounds = true
-//
-//        cell.layer.shadowColor = UIColor.black.cgColor
-//        cell.layer.shadowOffset = CGSize(width: 0, height: 1)
-//        cell.layer.shadowRadius = 2.0;
-//        cell.layer.shadowOpacity = 0.3
-//        cell.layer.masksToBounds = false
-//        let imgUrl = bookListMedia[indexPath.row].url
         
         let bookItem = bookList[indexPath.row]
         cell.titleLabel.text = bookItem.title
